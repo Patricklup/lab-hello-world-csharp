@@ -22,7 +22,7 @@ namespace ConsoleApplication
         public static void Main(string[] args)
         {
             if (args.Length != 1) {
-                Console.WriteLine("Usage: hello NAME");
+                Console.WriteLine("Usage: hello pATRICK NAME");
             } else {
                 Console.WriteLine(Greeter.SayHello(args[0]));
             }
